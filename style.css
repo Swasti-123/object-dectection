@@ -1,0 +1,16 @@
+body{
+    background-color:rgb(181, 246, 225) ;
+}
+
+
+.a{
+    background-color: cadetblue;
+    color: white;
+    width:200px;
+}
+
+.heading{
+    font-size: 40px;
+    font-family: 'Monofett', cursive;
+    color:black;
+}
