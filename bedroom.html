@@ -11,7 +11,7 @@
 
   <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
   
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="bedroom.css">
 
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,35 +21,18 @@
 
 <body>
   <center>
-    <h1 class="btn btn-info heading">Object Detection</h1>
+    <h1 class="btn-info"> <span class="heading"> Object Detection Bedroom</span>
+      <button id="back" class="btn btn-success" onclick="back()">BACK</button>
+      </h1>
+
     <br>
     <br>
-    <br>
-    <br>
-    <a class="btn  a" href="bedroom.html">Bedroom</a>
-    <br>
-    <br>
-    <br>
-    <br>
-    <a class="btn  a" href="bathroom.html">Bathroom</a>
-    <br>
-    <br>
-    <br>
-    <br>
-    <a class="btn  a" href="living.html">Living</a>
-    <br>
-    <br>
-    <br>
-    <br>
-    <a class="btn  a" href="study.html">Study</a>
-    <br>
-    <br>
-    <br>
-    <br>
-    <a class="btn  a" href="kitchen.html">Kitchen</a>
+    <label  id="status" ></label>
+    <br><br>
+  <h3>Number of objects in image:     Number of objects detected:    </h3> 
   </center>
 
-  <script src="main.js "></script>
+  <script src="bedroom.js "></script>
 
 </body>
 </html>
